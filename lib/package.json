@@ -1,7 +1,6 @@
-
 {
   "name": "react-native-vk-channel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "react-native library for channel",
   "main": "index.js",
   "scripts": {
@@ -10,7 +9,8 @@
   "keywords": [
     "react-native-channel",
     "channel",
-    "subpackage"
+    "subpackage",
+    "react-native"
   ],
   "author": "",
   "license": "MIT",
