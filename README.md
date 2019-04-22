@@ -57,9 +57,9 @@ Channel.getChannelInfo()
 需要安装JAVA环境，下载命令行工具[walle-cli](https://github.com/Meituan-Dianping/walle/blob/master/walle-cli/README.md)，放在系统根目录，具体使用查看说明文档
 
 ## iOS 打包工具安装
-1. 安装工具，仅支持 Linux 和 Mac OS X 系统
+1. 安装工具，仅支持 Linux 和 Mac OS X 系统，
 ```
-$ git clone https://github.com/saucelabs/isign.git
+$ git clone https://github.com/apperian/isign
 $ cd isign
 $ sudo ./INSTALL.sh
 ```
@@ -78,9 +78,9 @@ isign.mobileprovision
 key.pem
 ```
 
-4. 签名打包
+4. 渠道打包
 ```
-$ isign -o resigned.ipa my.ipa
+$ isign -i channel=ios_channel -o resigned.ipa my.ipa
 ```
 
 ## License
